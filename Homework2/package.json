@@ -1,0 +1,16 @@
+{
+  "name": "homework2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile-sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "author": "Julius Joiner",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.5"
+  }
+
+}

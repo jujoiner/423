@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/weather-app.png" alt="logo"/>
+      </div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a>|</a>
+        <a href="about.html">About</a>
+        <a>|</a>
+        <a href="login.html">Login</a>
+        <a>|</a>
+        <a href="signup.html">Sign Up</a>
+      </div>
+    </nav>
+
+    <section class="middle">
+      <div id="app">
+        <div class="form">
+          <div class="search">
+            <label for="location">Location</label>
+            <input id="gwInput" type="text" placeholder="location for weather" />
+            <button id="gw">Get Me My Weather</button>
+          </div>
+          <div id="results"></div>
+        </div>
+      </div>
+    </section>
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="app/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+    <footer>&copy; 2022 All rights reserved.</footer>
+  </body>
+</html>

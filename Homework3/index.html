@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/checklist.png" alt="logo" />
+      </div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a>|</a>
+        <a href="about.html">About</a>
+        <a>|</a>
+        <a href="login.html">Login</a>
+        <a>|</a>
+        <a href="signup.html">Sign Up</a>
+      </div>
+    </nav>
+
+      <div class="middle">
+        <div class="header">
+          <h1>Rooster Roster</h1>
+        </div>
+      </div>
+
+      <div class="middle">
+        <div class="student">
+          <label for="fName">First Name <span>*</span></label>
+          <input type="text" id="firstName" />
+        </div>
+
+        <div class="student">
+          <label for="lName">Last Name <span>*</span></label>
+          <input type="text" id="lastName" />
+        </div>
+
+        <div class="student">
+          <label for="age">Age <span>*</span></label>
+          <input type="text" id="age" />
+        </div>
+
+        <div class="student">
+          <label for="phoneNumber">Phone Number <span>*</span></label>
+          <input type="text" id="phoneNumber" placeholder="ex. 000-000-0000" />
+        </div>
+
+        <div class="student">
+          <label for="email">Valid Email Address <span>*</span></label>
+          <input type="text" id="email" />
+        </div>
+
+        <div class="student">
+          <label for="classes">Classes <span>*</span></label>
+          <input type="text" id="classOne" placeholder="Class 1" />
+          <input type="text" id="classTwo" placeholder="Class 2" />
+          <input type="text" id="classThree" placeholder="Class 3 (optional)" />
+        </div>
+      </div>
+      
+      <div class="middle">
+        <div class="studentsubmit">
+        <input type="submit" id="submit" value="Submit" />
+        <button id="getName">Retrieve All Students</button>
+        </div>
+      </div>
+      <div class="middle">
+        <div id="app"></div>
+     </div>
+      <script src="lib/jquery-3.6.1.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="app/app.js"></script>
+      
+    <footer>&copy; 2022 All rights reserved.</footer>
+  </body>
+</html>

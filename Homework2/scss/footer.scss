@@ -1,0 +1,47 @@
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; height: 10%;
+    background-color: rgba(213, 207, 207, 0.71);
+    display: flex;
+    //align-items: baseline;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    //justify-content: space-evenly;
+    .logo{
+        width: 15%;
+        img{
+            width: 70%;
+        }
+    }
+
+    .links{
+        
+        position: absolute;
+        right: 10%;
+        bottom: -5px;
+        width: 70%;
+        //border: 3px solid #73AD21;
+        .content{
+            float: left;
+            //border: 3px solid #73AD21;
+            flex-wrap: wrap;
+           // background-color: rgb(0, 150, 301);
+            flex: 50%;
+        }
+        .maintainance{
+            float: right;
+            flex-wrap: wrap;
+            //background-color: rgb(0, 100, 208);
+            flex: 50%;
+        }
+        a{
+            font-size: larger;
+            text-decoration: none;
+            color: rgba(85, 58, 8, 0.785);
+            //background-color: rgba(255, 179, 1, 0.09);
+        }
+    }
+}
