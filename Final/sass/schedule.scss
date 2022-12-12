@@ -1,0 +1,27 @@
+.event-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.event-cards{
+   background-color: rgba(91, 17, 120, 0.901);
+
+   padding: 15px;
+   margin: 15px;
+   height: 150px;
+   width: 200px;
+   border-radius: 15px;
+   .event{
+    color: #F7E7CE;
+  
+    }
+
+   .event-location{
+   
+    a{
+    text-decoration: none;
+    color: #F7E7CE;
+    }
+   }
+}

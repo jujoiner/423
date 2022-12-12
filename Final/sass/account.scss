@@ -1,0 +1,50 @@
+#signbox{
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-evenly;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+    #signbox-body{
+    input{
+        display: block;
+        margin-bottom: 90px;
+        width: 250.23px;
+        border: none;
+        background: none;
+        border-bottom: 3px solid black;
+        font-size: 12px;
+        font-family: latoLight;
+        padding-bottom: 5px;
+        position: relative;
+    }
+}
+    #signbox-input{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        input{
+            width: 158px;
+            height: 52px;
+            text-align: center;
+            display: inline-block;
+            background-color: purple;
+            padding: 10px;
+            border-radius: 25px;
+            box-shadow: 5px 10px 8px rgba(69, 68, 68, 0.611); 
+            border: none;
+            font-size: 20px;
+            
+            cursor: pointer;
+        }
+        
+    }
+    input::placeholder{
+        color: black;
+        letter-spacing: 2px;
+    }
+
+}

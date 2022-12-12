@@ -1,0 +1,18 @@
+{
+  "name": "stag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile-sass": "sass sass/styles.scss css/styles.css -w"
+  },
+  "author": "Julius Joiner",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.5"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1"
+  }
+}

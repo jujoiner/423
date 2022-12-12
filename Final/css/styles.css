@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  margin: auto;
+  max-width: 1280px;
+}
+
+@font-face {
+  font-family: Identity;
+  src: url(../lib/Fonts/Fellande.ttf);
+}
+nav {
+  text-decoration: none;
+  max-width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #000 solid 1px;
+}
+
+nav #logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+nav .title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 1000px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 25px;
+  font-family: Identity;
+  text-transform: uppercase;
+  font-size: 96px;
+}
+
+nav .title a {
+  text-decoration: none;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  max-width: 1380px;
+  min-width: 800px;
+  height: 100px;
+  background-color: #F7E7CE;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+footer .logo img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  right: 185px;
+  width: 125px;
+  height: 95%;
+}
+
+footer .copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: rgb(90, 17, 120);
+}
+
+footer .copyright .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 10px;
+  left: 50px;
+  right: 500px;
+}
+
+footer .copyright .links img {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  bottom: 0px;
+  left: 5px;
+  right: 5px;
+}
+
+footer .copyright .links a {
+  text-decoration: none;
+  color: rgb(90, 17, 121);
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  display: inline;
+  padding-right: 20px;
+}
+
+footer .icons {
+  position: relative;
+  left: 200px;
+  top: 5px;
+  width: 25%;
+  text-align: center;
+}
+
+footer .icons i img {
+  width: 40px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.home_body .home_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 15px;
+  font-size: 50px;
+  background-image: linear-gradient(rgba(90, 17, 120, 0.75), rgba(91, 17, 120, 0.75));
+}
+.home_body .course_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 150px;
+  font-size: 50px;
+  font-weight: 600;
+  z-index: 1;
+  background-image: linear-gradient(rgba(90, 17, 120, 0.75), rgba(91, 17, 120, 0.75));
+}
+.home_body .home_fab {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home_body .home_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home_body img {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  padding: 25px;
+  width: 350px;
+  height: 500px;
+  background-color: rgb(90, 17, 120);
+}
+
+.event-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.event-cards {
+  background-color: rgba(91, 17, 120, 0.901);
+  padding: 15px;
+  margin: 15px;
+  height: 150px;
+  width: 200px;
+  border-radius: 15px;
+}
+.event-cards .event {
+  color: #F7E7CE;
+}
+.event-cards .event-location a {
+  text-decoration: none;
+  color: #F7E7CE;
+}
+
+#signbox {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#signbox #signbox-body input {
+  display: block;
+  margin-bottom: 90px;
+  width: 250.23px;
+  border: none;
+  background: none;
+  border-bottom: 3px solid black;
+  font-size: 12px;
+  font-family: latoLight;
+  padding-bottom: 5px;
+  position: relative;
+}
+#signbox #signbox-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#signbox #signbox-input input {
+  width: 158px;
+  height: 52px;
+  text-align: center;
+  display: inline-block;
+  background-color: purple;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 5px 10px 8px rgba(69, 68, 68, 0.611);
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+#signbox input::placeholder {
+  color: black;
+  letter-spacing: 2px;
+}
+
+/*# sourceMappingURL=styles.css.map */
